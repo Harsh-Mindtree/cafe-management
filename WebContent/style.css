@@ -1,0 +1,130 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	background-color: #000;
+}
+
+div#menu-ops {
+	justify-content: center;
+	display: flex;
+	border: solid 2px black;
+	padding: 10%;
+	margin: 0 15%;
+	background: blue;
+	border-radius: 10px;
+}
+
+li {
+	padding: 10px;
+}
+
+#menu-ops>ol>li>a {
+	text-decoration: none;
+	font-size: 25px;
+	cursor: pointer;
+	font-family: cursive;
+	color: aliceblue;
+}
+
+.head-mindtree {
+	display: flex;
+	justify-content: center;
+	font-family: cursive;
+	font-size: 35px;
+	font-weight: bold;
+	color: white;
+}
+
+input#submit {
+	font-family: cursive;
+	font-weight: bold;
+}
+
+div#details-enter {
+	background: blue;
+	display: flex;
+	justify-content: center;
+	border-radius: 10px;
+	font-family: cursive;
+}
+
+tr {
+	text-align: center;
+}
+
+td {
+	height: 50px;
+	padding: 5px;
+}
+
+input#submit {
+	font-family: cursive;
+	font-weight: bold;
+}
+
+div#report {
+	background: white;
+	border-radius: 10px;
+}
+
+#report>center>table td, th {
+	padding: 10px;
+}
+
+form#empform {
+	display: flex;
+	justify-content: center;
+	background: blue;
+	border-radius: 10px;
+	font-family: cursive;
+}
+
+input {
+	font-family: cursive;
+	font-weight: bold;
+}
+
+div#successDiv {
+	display: flex;
+	background: blue;
+	color: white;
+	justify-content: center;
+	font-family: cursive;
+	font-size: 35px;
+	padding: 20%;
+	border-radius: 10px;
+}
+
+div#details-enter {
+	background: blue;
+	display: flex;
+	justify-content: center;
+	border-radius: 10px;
+	font-family: cursive;
+	padding: 5%;
+}
+
+a: link {
+	text-decoration: none;
+}
+
+a:hover {
+	font-weight: bold;
+	size: 30px;
+	background-color: green;
+	color: navy;
+}
+
+a:visited {
+	text-color: lightpurple;
+}
+
+button {
+	background-color: aqua;
+	color: white;
+}
+
+.mayank {
+	background-color: pink;
+	color: green;
+}
